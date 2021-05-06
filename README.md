@@ -10,4 +10,8 @@ The top two layers of the case, sandwich a piece of clear plastic. I cut a bit o
 
 ![alt text](https://github.com/SimonRafferty/VESC_ESP32_Display/blob/main/20210506_095833.jpg)
 
+To connect to the VESC, the Tx & Rx UART connections connect to pins 26 & 25 on the ESP32 respectively.
+The Hardware Serial UART pins on the ESC32 are configured in the code (line 61) so you can use whicever pins are most convenient.
++5V & 0V on the VESC to +5v & GND on the ESP32
+
 Ping me an email if you have any queries - I'm happy to answer.
