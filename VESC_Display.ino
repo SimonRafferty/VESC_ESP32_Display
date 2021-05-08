@@ -77,9 +77,9 @@ void setup() {
 
   //Splash Screen
   tft.drawCentreString("Bike belongs to", Disp_H/2, 10, 4);
-  tft.drawCentreString("Simon Rafferty", Disp_H/2, 45, 4);
+  tft.drawCentreString("Your Name", Disp_H/2, 45, 4);
   tft.setTextColor(Yellow);
-  tft.drawCentreString("07774 956461", Disp_H/2, 90, 4);
+  tft.drawCentreString("Your Phone No", Disp_H/2, 90, 4);
   
   
   
